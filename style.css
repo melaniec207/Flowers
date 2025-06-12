@@ -1,8 +1,50 @@
-h1{
-    color: blue
+h1
+{
+    color: green; 
+    font-family: 'Times New Roman', Times, serif;
 }
-article{
-    background-color: aqua;
-    background-image: url("https://mail.google.com/mail/u/0/?ui=2&ik=cf039589e8&attid=0.1&permmsgid=msg-f:1834659389395678199&th=197604fe84c3b3f7&view=fimg&disp=thd&attbid=ANGjdJ90LAPkgmz6SIuUS3sG7ii2aQs3-E9KmDlv6lVCqul8MA-IVPdrVvLvmzuyJpntxlJV1-p3dRX15NLQ4DP5gctu8L-JigM0Q-i6uDIg7xYtQD6L3fe3cSXFkmY&ats=2524608000000&sz=w1920-h912");
-    
+article
+{
+    background-color:antiquewhite;
+    background-image: url("https://i.pinimg.com/originals/fe/91/03/fe910313102e877ffe09e98ffcbeeb3c.jpg");
+    width: 500;
+    height: 500;
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.blur 
+{
+    backdrop-filter:blur(5px);
+    background-color:antiquewhite;
+}
+
+div p
+{
+    color:antiquewhite;
+}
+
+a:hover 
+{
+    color: black;
+}
+
+input[type="text"]
+{
+    border: 1px solid purple;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: antiquewhite;
+}
+
+.item
+{
+    flex:1;
+    align-self: center;
 }
