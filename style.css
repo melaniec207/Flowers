@@ -45,7 +45,7 @@ input[type="text"]
 
 .item
 {
-    flex:1;
+    flex: 1;
     align-self: center;
     background-color: aqua;
     color: white;
