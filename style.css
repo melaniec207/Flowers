@@ -54,7 +54,7 @@ input[type="text"]
 .container
 {
     display: grid; 
-    grid-template-columns: repeat(3,1fr)
+    grid-template-columns: repeat(3,1fr);
     gap: 10px;
 }
 
@@ -67,7 +67,10 @@ input[type="text"]
 .container2
 {
     display: grid;
-    grid-template-ares: 
+    grid-template-areas: repeat(3,1fr); 
+    gap: 10px;
+    padding: 10px;
+    background-color: aqua;
 }
 
 .header
